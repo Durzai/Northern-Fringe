@@ -22,10 +22,20 @@ system Faerin
 	asteroids "large rock" 5 6
 	asteroids "medium metal" 7 5
 	asteroids "large metal" 9 6
+	trade Clothing 223
+	trade Electronics 786
+	trade Equipment 659
+	trade Food 481
+	trade "Heavy Metals" 1022
+	trade Industrial 807
+	trade "Luxury Goods" 1423
+	trade Medical 677
+	trade Metal 275
+	trade Plastic 467
 	object
 		sprite star/g5-old
 		period 10
-	object
+	object Loreon
 		sprite planet/ocean7-b
 		distance 500
 		period 365

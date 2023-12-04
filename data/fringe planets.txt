@@ -1,0 +1,16 @@
+planet Loreon
+	attributes factory military mining fringe
+	landscape land/sea10-sfiera
+	description `Loreon is a recently settled world at the northern fringe of human space, constant conflict with neighboring pirates worlds and the Republic has led to rapid militarization of this independant world, and minerals mined from the asteroid belt are refined and forged into weapons of war within the floating factories and shipyards of Loreon.`
+	description `TBD.`
+	spaceport `TBD.`
+	spaceport `TBD.`
+	shipyard "Federation Advanced"
+    outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Lovelace Advanced"
+	bribe 0.1
+	security 0.9
+	tribute 4800
+		threshold 7500
+		fleet "Large Pirate" 18

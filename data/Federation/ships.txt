@@ -1,0 +1,73 @@
+# Copyright (c) 2014-2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+ship "Eminence"
+    sprite "ship/eminence"
+	thumbnail "thumbnail/eminence-thumbnail"
+	attributes
+		category "Medium Warship"
+		"cost" 5200000
+		"shields" 8000
+		"hull" 2500
+		"required crew" 21
+		"bunks" 44
+		"mass" 310
+		"drag" 5.2
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 35
+		"outfit space" 410
+		"weapon capacity" 170
+		"engine capacity" 100
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Particle Cannon" 4
+		"Anti-Missile Turret" 2
+		
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"LP036a Battery Pack"
+		"D41-HY Shield Generator"
+		"Large Radar Jammer"
+		"Laser Rifle" 5
+		"Fragmentation Grenades" 5
+		"Security Station"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+		
+	gun -11.5 -60 "Particle Cannon"
+	gun 11.5 -60 "Particle Cannon"
+	gun -12 -36.5 "Particle Cannon"
+	gun 12 -36.5 "Particle Cannon"
+	turret -30 15 "Anti-Missile Turret"
+	turret 30 15 "Anti-Missile Turret"
+	"reverse engine" 42.5 10 
+	"reverse engine" -42.5 10.5 
+	engine 0 42 
+	engine 33.5 47 
+	engine -33 47 
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "The Eminence is the backbone of the Federation navy, a fast strike frigate excelling in hit-and-run tactics, but leaves much to be desired in a head-on confrontation."
