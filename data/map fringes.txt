@@ -1,0 +1,35 @@
+# Copyright (c) 2023 by Peter Olinda
+# derived from original game at https://github.com/endless-sky/endless-sky
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+system Faerin
+	pos -590 -625
+	government Independent
+	arrival 1250
+	habitable 1250
+	belt 1500
+	haze _menu/haze-none
+	link Arneb
+	asteroids "small rock" 5 4
+	asteroids "medium rock" 17 5
+	asteroids "large rock" 5 6
+	asteroids "medium metal" 7 5
+	asteroids "large metal" 9 6
+	object
+		sprite star/g5-old
+		period 10
+	object
+		sprite planet/ocean7-b
+		distance 500
+		period 365
+		object
+				sprite planet/luna-b
+				distance 125
+				period 30
