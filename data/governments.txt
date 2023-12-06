@@ -1,0 +1,8 @@
+government "Alliance"
+	swizzle 6
+	"player reputation" 1
+	"attitude toward"
+        "Pirate" -.01
+        "Pirate (Devil-Run Gang)" -.01
+        "Navy (Oathkeeper)" -.01
+        "Republic" -.01

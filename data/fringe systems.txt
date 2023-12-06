@@ -9,6 +9,57 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+system Arneb
+	pos -523 -580
+	government Pirate
+	attributes "north"
+	arrival 1715
+	habitable 1715
+	belt 1947
+	haze _menu/haze-none
+	link Hatysa
+	link Faerin
+	asteroids "large rock" 1 5.3055
+	asteroids "small metal" 2 5.2245
+	asteroids "medium metal" 9 4.7385
+	asteroids "large metal" 1 6.0345
+	trade Clothing 365
+	trade Electronics 800
+	trade Equipment 583
+	trade Food 135
+	trade "Heavy Metals" 1210
+	trade Industrial 636
+	trade "Luxury Goods" 1012
+	trade Medical 890
+	trade Metal 566
+	trade Plastic 358
+	fleet "Small Northern Pirates" 400
+	fleet "Large Northern Pirates" 500
+	fleet "Large Republic" 15000
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/venus
+		distance 206
+		period 28.5580
+	object
+		sprite planet/cloud6-b
+		distance 546.25
+		period 123.314
+	object
+		sprite planet/desert8
+		distance 829.46
+		period 230.739
+	object Haven
+		sprite planet/forest6
+		distance 1264.82
+		period 434.481
+	object
+		sprite planet/io
+		distance 4062.31
+		period 2500.84
+
 system Faerin
 	pos -590 -625
 	government Independent

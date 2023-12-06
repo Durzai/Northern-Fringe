@@ -1,73 +1,290 @@
-# Copyright (c) 2014-2015 by Michael Zahniser
-#
-# Endless Sky is free software: you can redistribute it and/or modify it under the
-# terms of the GNU General Public License as published by the Free Software
-# Foundation, either version 3 of the License, or (at your option) any later version.
-#
-# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License along with
-# this program. If not, see <https://www.gnu.org/licenses/>.
+//Transport
 
-ship "Eminence"
-    sprite "ship/eminence"
-	thumbnail "thumbnail/eminence-thumbnail"
+//Space Liner
+
+ship "Voidstrider"
+	sprite "ship/voidstrider"
+	thumbnail "thumbnail/voidstrider-thumbnail"
 	attributes
-		category "Medium Warship"
-		"cost" 5200000
-		"shields" 8000
-		"hull" 2500
-		"required crew" 21
-		"bunks" 44
-		"mass" 310
-		"drag" 5.2
-		"heat dissipation" .7
+		category "Space Liner"
+		"cost" 1000
+		"shields" 5000
+		"hull" 5000
+		"required crew" 13
+		"bunks" 133
+		"mass" 500
+		"drag" 7.5
+		"heat dissipation" .65
+		"fuel capacity" 800
+		"cargo space" 120
+		"outfit space" 475
+		"weapon capacity" 125
+		"engine capacity" 175
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Particle Turret" 2
+		"Heavy Anti-Missile Turret"
+		
+		"Fission Reactor"
+		"LP144a Battery Pack"
+		"D41-HY Shield Generator"
+		"Luxury Accommodations"
+		"Brig"
+		
+		"Orca Plasma Thruster"
+		"Orca Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Hyperdrive"
+		
+	engine 83.5 117.5 
+	engine -83.5 117.5 
+	engine 47.5 130 
+	engine -47.5 130 
+	"reverse engine" 83.5 -5 
+	"reverse engine" -83.5 -5 
+	turret 0 -12 "Particle Turret"
+	turret 52.5 29 "Particle Turret"
+	turret -52.5 29 "Particle Turret"
+	leak "leak" 50 50
+	leak "big leak" 80 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Voidstrider Space Liner schematics and patent were donated to the Alliance of Independent Systems in exchange for the induction of Faerin into the Alliance, since then the Voidstrider has served as a heavy personell and troop transport for the Alliance, with enough armaments to defend itself and support any fleet it is a part of in combat.
+//Light Freighter
+
+//Heavy Freighter
+
+//Utility
+
+ship "Tulkun"
+	sprite "ship/tulkun"
+	thumbnail "thumbnail/tulkun-thumbnail"
+	attributes
+		category "Utility"
+		"cost" 5100000
+		"shields" 6000
+		"hull" 6000
+		"required crew" 17
+		"bunks" 47
+		"mass" 350
+		"drag" 7.5
+		"heat dissipation" .6
 		"fuel capacity" 500
-		"cargo space" 35
-		"outfit space" 410
-		"weapon capacity" 170
-		"engine capacity" 100
+		"cargo space" 70
+		"outfit space" 395
+		"weapon capacity" 140
+		"engine capacity" 95
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile Rack" 5
+		"Sidewinder Missile" 205
+		"Anti-Missile Turret" 5
+		
+		"S3 Thermionic"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Capybara Reverse Thruster"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+
+		"Laser Rifle" 17
+		
+	engine -21.5 191.5 
+	engine 21.5 191.5 
+	engine 0 195 
+	"reverse engine" 0 -200 
+	gun -23 -175 "Sidewinder Missile Launcher"
+	gun 23 -175 "Sidewinder Missile Launcher"
+	turret 0 -89.5 "Anti-Missile Turret"
+	turret 0 -39.5 "Anti-Missile Turret"
+	turret 0 9.5 "Anti-Missile Turret"
+	turret 0 60 "Anti-Missile Turret"
+	turret 0 110 "Anti-Missile Turret"
+	bay "Drone" 32.5 -115 under
+	"launch effect" "human external"
+	bay "Drone" -32.5 -115 under
+	"launch effect" "human external"	
+	bay "Drone" 32.5 -65 under
+	"launch effect" "human external"
+	bay "Drone" -32.5 -65 under
+	"launch effect" "human external"
+	bay "Drone" 32.5 -15 under
+	"launch effect" "human external"
+	bay "Drone" -32.5 -15 under
+	"launch effect" "human external"
+	bay "Drone" 32.5 35 under
+	"launch effect" "human external"
+	bay "Drone" -32.5 35 under
+	"launch effect" "human external"
+	bay "Drone" 32.5 85 under
+	"launch effect" "human external"
+	bay "Drone" -32.5 85 under
+	"launch effect" "human external"
+	bay "Drone" 32.5 135 under
+	"launch effect" "human external"
+	bay "Drone" -32.5 135 under
+	"launch effect" "human external"
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The Tulkun serves as the Alliance of Independent Systems Utility Carrier, and the recent development of the Remora and Piranha Drones allows this ship to function as either a Heavy Freighter or Drone Carrier."
+
+//Interceptor
+
+//Light Warship
+
+ship "Waverider"
+	sprite "ship/waverider"
+	thumbnail "thumbnail/waverider-thumbnail"
+	attributes
+		category "Light Warship"
+		"cost" 4000000
+		"shields" 3500
+		"hull" 3500
+		"required crew" 14
+		"bunks" 24
+		"mass" 150
+		"drag" 3
+		"heat dissipation" .8
+		"fuel capacity" 500
+		"cargo space" 25
+		"outfit space" 320
+		"weapon capacity" 130
+		"engine capacity" 95
 		weapon
 			"blast radius" 100
 			"shield damage" 1000
 			"hull damage" 500
-			"hit force" 1500
+			"hit force" 1000
 	outfits
-		"Particle Cannon" 4
-		"Anti-Missile Turret" 2
+		"Particle Cannon" 2
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Heavy Anti-Missile Turret"
 		
-		"NT-200 Nucleovoltaic"
+		"Outfits Expansion" 
+		"S3 Thermionic"
 		"LP072a Battery Pack"
-		"LP036a Battery Pack"
-		"D41-HY Shield Generator"
-		"Large Radar Jammer"
-		"Laser Rifle" 5
-		"Fragmentation Grenades" 5
-		"Security Station"
+		"D14-RN Shield Generator"
 		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
 		"Hyperdrive"
+
+		"Laser Rifle" 14
 		
-	gun -11.5 -60 "Particle Cannon"
-	gun 11.5 -60 "Particle Cannon"
-	gun -12 -36.5 "Particle Cannon"
-	gun 12 -36.5 "Particle Cannon"
-	turret -30 15 "Anti-Missile Turret"
-	turret 30 15 "Anti-Missile Turret"
-	"reverse engine" 42.5 10 
-	"reverse engine" -42.5 10.5 
-	engine 0 42 
-	engine 33.5 47 
-	engine -33 47 
-	leak "leak" 40 50
-	leak "flame" 50 80
-	leak "big leak" 90 30
-	explode "tiny explosion" 18
-	explode "small explosion" 36
-	explode "medium explosion" 24
-	explode "large explosion" 8
-	"final explode" "final explosion medium"
-	description "The Eminence is the backbone of the Federation navy, a fast strike frigate excelling in hit-and-run tactics, but leaves much to be desired in a head-on confrontation."
+	engine 23 60 
+	engine -23 60
+	gun 23 -56 "Particle Cannon"
+	gun -23 -56 "Particle Cannon"
+	gun 32 -6 "Sidewinder Missile Launcher"
+	gun -32 -6 "Sidewinder Missile Launcher"
+	turret 0 0 "Heavy Anti-Missile Turret"
+	leak "leak" 50 50
+	leak "flame" 80 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "The Waverider is the first dedicated warship produced by the Alliance of Independent Systems, no expense was spared in the designing and outfitting of this warship; however it's high cost has also resulted in slow production rates and limited numbers available for deployment."
+
+//Medium Warship
+
+//Heavy Warship
+
+//Fighter
+
+//Drone
+
+ship "Remora"
+	sprite "ship/remora"
+	thumbnail "thumbnail/remora-thumbnail"
+	attributes
+		category "Drone"
+		"cost" 25000
+		"hull" 100
+		"automaton" 1
+		"mass" 15
+		"drag" 1
+		"heat dissipation" .9
+		"cargo space" 40
+		"outfit space" 43
+		"engine capacity" 25
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		
+		"KP-6 Photovoltaic Array"
+		"Supercapacitor"
+		
+		"Hummingbird Plasma Engines"
+		
+	"reverse engine" 0 -22.5 
+	"steering engine" -20.5 0 
+		angle 90
+		left
+	"steering engine" 17.5 0 
+		angle 270
+		right
+	engine 0 22.5 
+	explode "tiny explosion" 15
+	description "The Remora Drone is Alliance Engineering's latest innovation in cargo hauling, paired with the Tulkun Utility Carrier, it allows for significant amounts of cargo to be transported even to remote worlds lacking in spaceport infastructure. The addition of the Hummingbird Plasma Engines allow for the Remora to attach and deploy from the Tulkun without spaceport amenities."
+
+ship "Piranha"
+	sprite "ship/piranha"
+	thumbnail "thumbnail/piranha-thumbnail"
+	attributes
+		category "Drone"
+		"cost" 75000
+		"hull" 500
+		"automaton" 1
+		"mass" 20
+		"drag" .5
+		"heat dissipation" .9
+		"cargo space" 5
+		"outfit space" 52
+		"weapon capacity" 5
+		"engine capacity" 25
+		weapon
+			"blast radius" 5
+			"shield damage" 50
+			"hull damage" 25
+			"hit force" 75
+	outfits
+		"Energy Blaster"
+
+		"nGVF-AA Fuel Cell"
+		"Supercapacitor"
+		
+		"Hummingbird Plasma Engines"
+		
+	engine 0 20 
+	gun 0 -20 "Energy Blaster"
+	explode "tiny explosion" 15
+	description "The Piranha Drone is a descendant of the Mining Drones which have served as the backbone of mineral extraction fleets in the Northern Fringe for decades. While individually weak, these drones become a force to be reckoned with when deployed as a full squadron. When not deployed in combat these drones still retain limited functionality as mining drones, although not nearly as effecient as their dedicated predecessors."
