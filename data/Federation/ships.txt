@@ -656,7 +656,7 @@ ship "Piranha"
 		"drag" .5
 		"heat dissipation" .9
 		"cargo space" 5
-		"outfit space" 52
+		"outfit space" 54
 		"weapon capacity" 5
 		"engine capacity" 25
 		weapon
@@ -665,15 +665,17 @@ ship "Piranha"
 			"hull damage" 25
 			"hit force" 75
 	outfits
-		"Energy Blaster"
+		"Sidewinder Missile Pod"
+		"Sidewinder Missile Rack"
+		"Sidewinder Missile" 25
 
-		"nGVF-AA Fuel Cell"
+		"KP-6 Photovoltaic Array"
 		"Supercapacitor"
 		
 		"Hummingbird Plasma Engines"
 		
 	engine 0 20 
-	gun 0 -20 "Energy Blaster"
+	gun 0 -20 "Sidewinder Missile Pod"
 	explode "tiny explosion" 15
 	description "The Piranha Drone is a descendant of the Mining Drones which have served as the backbone of mineral extraction fleets in the Northern Fringe for decades. While individually weak, these drones become a force to be reckoned with when deployed as a full squadron. When not deployed in combat these drones still retain limited functionality as mining drones, although not nearly as effecient as their dedicated predecessors."
 
