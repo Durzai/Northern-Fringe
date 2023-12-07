@@ -12,6 +12,7 @@ shipyard "Alliance Shipyard"
 	"Baleen"
 	"Manatee"
 	"Jellyfish"
+	"Yemoja"
 
 outfitter "Alliance Outfitter"
 	"Particle Cannon"

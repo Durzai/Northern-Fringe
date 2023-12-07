@@ -315,6 +315,98 @@ ship "Tulkun"
 	"final explode" "final explosion large"
 	description "The Tulkun serves as the Alliance of Independent Systems Utility Carrier, and the recent development of the Remora and Piranha Drones allows this ship to function as either a Heavy Freighter or Drone Carrier."
 
+//Superheavy
+
+ship "Yemoja"
+	sprite "ship/yemoja"
+	thumbnail "thumbnail/yemoja-thumbnail"
+	attributes
+		category "Superheavy"
+		"cost" 70400000
+		"shields" 52000
+		"hull" 52000
+		"required crew" 280
+		"bunks" 980
+		"mass" 3760
+		"drag" 64.4
+		"heat dissipation" .4
+		"fuel capacity" 2800
+		"cargo space" 2120
+		"outfit space" 2960
+		"weapon capacity" 1200
+		"engine capacity" 720
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		
+		"Armageddon Core"
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator"
+		
+		"Tyrant Plasma Thruster"
+		"Tyrant Plasma Steering"
+		"Hyperdrive"
+		
+	engine -157 856.5 
+	engine 76.5 894.5 
+	engine -63 897 
+	gun -36.5 -905 
+	gun 48 -905 
+	turret 149 -532 
+	turret -39 -467.5 
+	turret -39 -429.5 
+	turret 125 -104.5 
+	turret 66 56.5 
+	turret 25.5 56.5 
+	turret -170 300 
+	turret 130.5 529 
+	turret 130.5 583 
+	turret -141 773.5 
+	bay "Drone" 92.5 -416.5 
+	"launch effect" "human internal"
+	bay "Drone" 95.5 -365.5 
+	"launch effect" "human internal"
+	bay "Drone" -203 -80.5 
+	"launch effect" "human internal"
+	bay "Drone" -208 -5.5 
+	"launch effect" "human internal"
+	bay "Drone" 20 247 
+	"launch effect" "human internal"
+	bay "Drone" -49.5 255 
+	"launch effect" "human internal"
+	bay "Drone" -12 303.5 
+	"launch effect" "human internal"
+	bay "Drone" -170.5 666 
+	"launch effect" "human internal"
+	bay "Drone" 200 720 
+	"launch effect" "human internal"
+	bay "Drone" -173 722.5 
+	"launch effect" "human internal"
+	bay "Fighter" -9.5 -67 
+	"launch effect" "human internal"
+	bay "Fighter" 15 -24 
+	"launch effect" "human internal"
+	bay "Fighter" -44.5 -21.5 
+	"launch effect" "human internal"
+	bay "Fighter" 181.5 134.5 
+	"launch effect" "human internal"
+	bay "Fighter" 36.5 489 
+	"launch effect" "human internal"
+	bay "Fighter" 39 591 
+	"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "Yemoja is one of the two Goddess-class Colony Ships which set out from Earth on December 6th, 2423, these Colony Ships set their sights on the Northern Fringe and would spend the next six years surveying planets, deploying hyperspace communication satellites, and mapping the northern passage. During this expedition the systems of Rigel, Saiph, Alnitak, Mintaka, Tortor, Gorvi, Almaaz, Unagi, Hatysa, Alnilam, Arneb, and Faerin were discovered and documented, and the pair of Colony Ships finally came to rest on the planet of Loreon in the Faerin system at the edge of the known galaxy."
+
 //Interceptor
 
 ship "Krill"
