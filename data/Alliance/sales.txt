@@ -1,0 +1,9 @@
+shipyard "Alliance Advanced"
+	"Balaenoptera"
+	"Physeter"
+	"Echeneidae"
+	"Carangiformes"
+	"Splinter"
+
+outfitter "Alliance Outfits"
+	"Particle Railgun"

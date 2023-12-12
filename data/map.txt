@@ -1,0 +1,125 @@
+system Malael
+	hidden
+	pos -533.111 -431.666
+	government Independent
+	habitable 11850
+	belt 1800 3
+	belt 2154 8
+	haze _menu/haze-33
+	asteroids "small rock" 10 1
+	asteroids "medium rock" 10 1
+	asteroids "large rock" 10 1
+	asteroids "small metal" 10 1
+	asteroids "medium metal" 10 1
+	asteroids "large metal" 10 1
+	minables aluminum 10 1
+	minables copper 10 1
+	minables gold 10 1
+	minables iron 10 1
+	trade Clothing 250
+	trade Electronics 650
+	trade Equipment 400
+	trade Food 500
+	trade "Heavy Metals" 750
+	trade Industrial 650
+	trade "Luxury Goods" 1250
+	trade Medical 750
+	trade Metal 350
+	trade Plastic 450
+	object
+		sprite star/a-supergiant
+	object Solaster
+		sprite "planet/asteroid base"
+		distance 5000
+		period 365
+
+system Amalar
+	hidden
+	pos -580.111 -509.556
+	government Independent
+	habitable 17025
+	belt 1019 8
+	haze _menu/haze-33
+	asteroids "small rock" 10 1
+	asteroids "medium rock" 10 1
+	asteroids "large rock" 10 1
+	asteroids "small metal" 10 1
+	asteroids "medium metal" 10 1
+	asteroids "large metal" 10 1
+	minables lead 10 1
+	minables neodymium 10 1
+	minables platinum 10 1
+	minables silicon 10 1
+	object
+		sprite star/b-supergiant
+	object
+		sprite "planet/asteroid base"
+		distance 5000
+		period 365
+
+system Soreal
+	hidden
+	pos -613.111 -592.778
+	government Independent
+	habitable 8400
+	haze _menu/haze-33
+	asteroids "small rock" 10 1
+	asteroids "medium rock" 10 1
+	asteroids "large rock" 10 1
+	asteroids "small metal" 10 1
+	asteroids "medium metal" 10 1
+	asteroids "large metal" 10 1
+	minables silver 10 1
+	minables titanium 10 1
+	minables tungsten 10 1
+	minables uranium 10 1
+	object
+		sprite star/f-supergiant
+	object
+		sprite "planet/asteroid base"
+		distance 5000
+		period 365
+
+system Faerin
+	hidden
+	pos -683.666 -656
+	government Independent
+	haze _menu/haze-33
+
+system Salorus
+	hidden
+	pos -580 -681.223
+	government Independent
+	haze _menu/haze-33
+
+system Volaner
+	hidden
+	pos -732 -793.888
+	government Independent
+	haze _menu/haze-33
+
+system Aetheri
+	hidden
+	pos -650.519 -743.796
+	government Independent
+	haze _menu/haze-33
+
+system Ellisar
+	hidden
+	pos -597.672 -820.991
+	government Independent
+	haze _menu/haze-33
+
+planet Solaster
+	landscape land/asteroid0
+	description 'TBD.'
+	spaceport 'TBD.'
+	government Independent
+	shipyard "Alliance Advanced"
+	outfitter "Alliance Outfits"
+	outfitter "Common Outfits"
+
+galaxy "label fringe"
+	pos -475 -575
+	sprite label/fringe
+

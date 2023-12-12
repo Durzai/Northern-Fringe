@@ -1,0 +1,267 @@
+//Transport
+
+
+
+//Space Liner
+
+
+
+//Light Freighter
+
+
+
+//Heavy Freighter
+
+
+
+//Utility
+
+ship "Balaenoptera"
+	sprite "ship/balaenoptera"
+	thumbnail "thumbnail/balaenoptera-thumbnail"
+	attributes
+		category "Utility"
+		"cost" 15000000
+		"shields" 8000
+		"hull" 8000
+		"required crew" 10
+		"bunks" 100
+		"mass" 600
+		"drag" 10
+		"heat dissipation" .75
+		"fuel capacity" 1000
+		"cargo space" 100
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 105
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Heavy Anti-Missile Turret" 5
+		
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator" 
+		"Laser Rifle" 10
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Scram Drive"
+		
+	engine -31 269 
+	engine 31 269 
+	turret -19 -221.5 "Heavy Anti-Missile Turret"
+	turret 19 -221.5 "Heavy Anti-Missile Turret"
+	turret 1 9.5 "Heavy Anti-Missile Turret"
+	turret -48 248.5 "Heavy Anti-Missile Turret"
+	turret 48 248.5 "Heavy Anti-Missile Turret"
+	bay "Fighter" 67.5 -150 under
+	"launch effect" "human external"
+	bay "Fighter" -67.5 -150 under
+	"launch effect" "human external"
+	bay "Fighter" 67.5 -78.5 under
+	"launch effect" "human external"
+	bay "Fighter" -67.5 -78.5 under
+	"launch effect" "human external"
+	bay "Fighter" 67.5 -10.5 under
+	"launch effect" "human external"
+	bay "Fighter" -67.5 -10.5 under
+	"launch effect" "human external"
+	bay "Fighter" 67.5 63 under
+	"launch effect" "human external"
+	bay "Fighter" -67.5 63 under
+	"launch effect" "human external"
+	bay "Fighter" 67.5 133.5 under
+	"launch effect" "human external"
+	bay "Fighter" -67.5 133.5 under
+	"launch effect" "human external"
+	bay "Fighter" 67.5 205 under
+	"launch effect" "human external"
+	bay "Fighter" -67.5 205 under
+	"launch effect" "human external"
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Utility Freighter & Fighter Carrier."
+
+ship "Physeter"
+	sprite "ship/physeter"
+	thumbnail "thumbnail/physeter-thumbnail"
+	attributes
+		category "Utility"
+		"cost" 10000000
+		"shields" 6000
+		"hull" 6000
+		"required crew" 10
+		"bunks" 100
+		"mass" 500
+		"drag" 10
+		"heat dissipation" .75
+		"fuel capacity" 1000
+		"cargo space" 100
+		"outfit space" 500
+		"weapon capacity" 200
+		"engine capacity" 105
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Heavy Anti-Missile Turret" 5
+		
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator" 
+		"Laser Rifle" 10
+		
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Scram Drive"
+		
+	engine 26 227.5 
+	engine -26 227.5 
+	turret 0 -107 "Heavy Anti-Missile Turret"
+	turret 0 -48 "Heavy Anti-Missile Turret"
+	turret 0 11 "Heavy Anti-Missile Turret"
+	turret 0 71 "Heavy Anti-Missile Turret"
+	turret 0 131 "Heavy Anti-Missile Turret"
+	bay "Drone" 52 -122 under
+	"launch effect" "human external"
+	bay "Drone" -52 -122 under
+	"launch effect" "human external"
+	bay "Drone" 52 -62 under
+	"launch effect" "human external"
+	bay "Drone" -52 -62 under
+	"launch effect" "human external"
+	bay "Drone" 52 -2.5 under
+	"launch effect" "human external"
+	bay "Drone" -52 -2.5 under
+	"launch effect" "human external"
+	bay "Drone" 52 57 under
+	"launch effect" "human external"
+	bay "Drone" -52 57 under
+	"launch effect" "human external"
+	bay "Drone" 52 116.5 under
+	"launch effect" "human external"
+	bay "Drone" -52 116.5 under
+	"launch effect" "human external"
+	bay "Drone" 52 176.5 under
+	"launch effect" "human external"
+	bay "Drone" -52 176.5 under
+	"launch effect" "human external"
+	leak "leak" 40 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "large explosion" 35
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Medium Utility Freighter & Carrier."
+
+//Interceptor
+
+
+
+//Light Warship
+
+
+
+//Medium Warship
+
+
+
+//Heavy Warship
+
+
+
+//Fighter
+
+ship "Echeneidae"
+	sprite "ship/echeneidae"
+	thumbnail "thumbnail/echeneidae-thumbnail"
+	attributes
+		category "Fighter"
+		cost 150000
+		"hull" 800
+		"automaton" 1
+		"mass" 15
+		"drag" .5
+		"heat dissipation" .25
+		"outfit space" 38
+		"engine capacity" 20
+		"cargo space" 80
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"KP-6 Photovoltaic Array"
+		"Supercapacitor"
+
+		"X1050 Ion Engines"
+
+	engine 0 0 
+	"steering engine" 0 0 
+		angle 90
+		left
+	"steering engine" 0 0 
+		angle 270
+		right
+	"reverse engine" 0 0 
+	leak "leak" 70 50
+	leak "flame" 50 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Large Cargo Container."
+
+//Drone
+
+ship "Carangiformes"
+	sprite "ship/carangiformes"
+	thumbnail "thumbnail/carangiformes-thumbnail"
+	attributes
+		category "Drone"
+		cost 100000
+		"hull" 600
+		"automaton" 1
+		"mass" 10
+		"drag" .25
+		"heat dissipation" .25
+		"outfit space" 38
+		"engine capacity" 20
+		"cargo space" 60
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"KP-6 Photovoltaic Array"
+		"Supercapacitor"
+
+		"X1050 Ion Engines"
+
+	engine 0 0 
+	"steering engine" 0 0 
+		angle 90
+		left
+	"steering engine" 0 0 
+		angle 270
+		right
+	"reverse engine" 0 0 
+	leak "leak" 70 50
+	leak "flame" 50 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Medium Cargo Container."

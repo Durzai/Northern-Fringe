@@ -1,0 +1,36 @@
+outfit "Particle Railgun"
+	category "Guns"
+	cost 1000000
+	thumbnail "outfit/particle cannon"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		sound "railgun-sound"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" .1
+		"velocity" 50
+		"lifetime" 30
+		"reload" 120
+		"firing energy" 280
+		"firing force" 80
+		"firing heat" 960
+		"hit force" 640
+		"shield damage" 250
+		"hull damage" 500
+		"piercing" 0.25
+	description "The Railgun works by accelerating a short burst of particles to near-relativistic speeds. When mounted on a ship that can turn fast enough to keep it trained on approaching ships, it becomes a nearly unbeatable weapon, capable of destroying smaller ships before they can even approach close enough for their comparatively short-ranged weapons to be effective."
+
+effect "rail sparks"
+	sprite "effect/railspark"
+		"random start frame"
+		"frame rate" 30
+		"rewind"
+	"lifetime" 6
+	"random angle" 360
+	"random spin" 30
+	"velocity scale" 1.2

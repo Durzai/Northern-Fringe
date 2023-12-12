@@ -1,0 +1,59 @@
+mission "Alliance: Stranded Merchants"
+	priority
+	name "Stranded Merchants"
+	description "A merchant captain and his crew were stranded on Featherweight, and he has asked you to take them home."
+	source "Featherweight"
+	destination "Solaster"
+	passengers 5
+	on offer
+		conversation
+			`While strolling through the spaceport you are approached by a middle-aged man with cropped blonde hair and a long, braided beard. He is wearing a worn blue jumpsuit covered in long dried oil stains and patches of resewn fabric.`
+			`"Pardon my intrusion, you don't appear to be a local of these parts; would you happen to be a captain?"`
+			choice
+				`Yes, I am.`
+					goto yes
+				`No, I am not.`
+					goto decline
+			label yes
+			`"My name is Clark, my freighter was boarded by Pirates last week on our approach to Featherweight. My crew and I made it to the escape pod and managed to land here safely, but now we are stranded. Would you be willing to provide transport? There are five of us in total, and our home is just a jump away. I can pay <payment> for the trouble."`
+			choice
+				`"I would be glad to take you home, but isn't the only star system a jump from here uninhabited?"`
+					goto uninhabited
+				`"Sorry, I've got other places to be."`
+					goto decline
+			label uninhabited
+			`"My apologies Captain, your confusion is understandable. Malael is an Independent system just northwest of here that is not listed on the local star maps. I can provide you with coordinates to the hyperlane connection if you would be willing to take us there."`
+			choice
+				`"Works for me, welcome aboard."`
+					goto accept
+				`"You'll have to find someone else, I have to go."`
+					goto decline
+			label accept
+			`"I'll go get the crew then, we will be back shortly."`
+			
+			`Half an hour later Clark and four others wearing matching jumpsuits jog at a moderate pace across the spaceport to the <ship>. You greet and welcome everyone aboard.`
+			
+			`Clark finds you after his crew gets settled in their bunks and hands you a datapad. "Here are the coordinates to the hyperlane connection, input them once you take off from the planet, and it will take you straight to Malael."`
+				accept
+			label decline
+			`His face drops in disappointment, but he nods. "Understood, sorry for the bother."`
+				decline
+	on accept
+		event "Malael Reveal"
+	on enter
+		dialog "You input the coordinates Clark provided, and your computer registers a faint hyperlane connection to the northwest."
+	on complete
+		payment 50000
+		conversation
+			`After setting course for Malael you spent the remainder of the evening becoming acquainted with your new passengers. You are invited to join them for dinner, and the six of you swap stories of your time working in space while enjoying your meals, one of the crew members passes chilled bottles of Alhekan Sparkling Cider out to you and to each of her crewmates. You find out that Clark, Emily, Evelyn, Joel, and Vayle have been working together for nearly ten years now, and have spent most of that time hauling ore between the Independent mining outpost of Solaster and the worlds of the Far North.`
+			
+			`You reach Malael late the next day and exit the hyperlane into a dense asteroid belt orbiting a large, bright blue sun. Clark joins you shortly thereafter and directs you to a large asteroid in stable orbital revolution around the star. You open a communications link with the asteroid outpost and Clark transmits his credentials and a short message explaining the loss of his freighter and your role in returning himself and his crew home.`
+			
+			`The <ship> is cleared to land in Hangar 13, and as you touch down in the spacious subterranean berth the blast doors close overhead and your computer signals that the hangar has pressurized. You deploy the loading ramp and inform your passengers they are clear to disembark. Clark pulls you aside before departing, handing you a stack of credits. "Thank you for getting us all home safe Captain <last>, I need to get my crew settled and then file a report about the loss of our ship. If you plan to stick around for a while, find us in the spaceport in a few hours, and we will show you around the outpost."`
+
+		log "Minor People" "Clark" `A merchant captain you transported home after his ship was destroyed by Pirates, he revealed the location of the hidden system of Malael to you.`
+
+event "Malael Reveal"
+	system Malael
+		remove hidden
+	link Mebsuta Malael

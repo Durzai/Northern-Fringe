@@ -1,0 +1,47 @@
+Pixel to Feet Ratio
+
+    1 Pixel = 1.5152 Feet
+
+Alliance of Independent Systems
+
+    Malael: Mineral Harvesting & Republic Surveillance.
+
+        Solaster:
+
+    Amalar: Mineral Harvesting & Pirate Surveillance.
+
+        TBD:
+
+    Soreal: Mineral Harvesting & Military Staging Ground.
+    
+        TBD:
+
+    Faerin: Military Headquarters & Logistics Hub.
+
+        TBD:
+
+    Salorus: Mineral Refinery & Alliance Shipyards.
+
+        TBD:
+
+    Aetheri: Alliance Capitol & Distribution Hub.
+
+        Loreon:
+
+    Volaner: Scientific Research & Development.
+
+        TBD:
+
+    Ellisar: Agriculture & Prison World.
+
+        TBD:
+
+Introduction Missions
+
+    Stranded Merchant to Solaster
+
+        Rescue a merchant captain from a direlect freighter before it explodes, ferry the merchant to Featherweight so that they
+        can inform their client of the pirate attack and stolen cargo. Merchant offers <payment> as thanks for saving them, and
+        tenatively asks if you could return them home to the Malael system discreetly, informing you that it is a hidden system
+        nearby that does not exist on Republic star maps, due to it's status as an Independent system, and their distrust of the
+        Republic.
