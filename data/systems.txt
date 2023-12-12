@@ -109,17 +109,3 @@ system Ellisar
 	pos -597.672 -820.991
 	government Independent
 	haze _menu/haze-33
-
-planet Solaster
-	landscape land/asteroid0
-	description 'TBD.'
-	spaceport 'TBD.'
-	government Independent
-	shipyard "Alliance Advanced"
-	outfitter "Alliance Outfits"
-	outfitter "Common Outfits"
-
-galaxy "label fringe"
-	pos -475 -575
-	sprite label/fringe
-

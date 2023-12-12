@@ -1,0 +1,3 @@
+galaxy "label fringe"
+	pos -475 -575
+	sprite label/fringe

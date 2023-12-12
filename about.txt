@@ -1,2 +1,1 @@
-Enter some text that describes your plugin in this file.
-Endless Sky will then display it when the user has your plugin installed and selected.
+This plugin tells the story of the Northern Fringe, an isolated region of space beyond the Far North embroiled in conflict with the Northern Pirates and the Republic.

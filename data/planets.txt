@@ -1,0 +1,8 @@
+planet Solaster
+	landscape land/asteroid0
+	description 'TBD.'
+	spaceport 'TBD.'
+	government Independent
+	shipyard "Alliance Advanced"
+	outfitter "Alliance Outfits"
+	outfitter "Common Outfits"
