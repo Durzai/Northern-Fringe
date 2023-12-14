@@ -45,3 +45,19 @@ Introduction Missions
         tenatively asks if you could return them home to the Malael system discreetly, informing you that it is a hidden system
         nearby that does not exist on Republic star maps, due to it's status as an Independent system, and their distrust of the
         Republic.
+
+Weaponized Gravity Missions
+
+Gravity Field: Destroys slow moving projectiles, but fast moving projectiles have enough thrust to get through before being destroyed. Extremely effective against torpedoes, destroys them quickly, but struggles against smaller, faster missiles. Can be overwhelmed quickly by large volleys of missiles fired together.
+
+Gravity Pulse Missile: Variable payload missiles, filled with asteroid debris instead of an explosive warhead, once the missile pierces the hull of a ship the on board gravity generator that has been helping contain the tightly packed debris reverses it's polarity and expels the debris into the ship at tremendous speed, gutting it from the inside out. Low shield damage, extraordinary hull damage.
+
+Mercenaries
+
+Hand-to-Hand: Professional soldier trained in ship-to-ship and ground combat, required crew, high upkeep, used for ground assault missions.
+
+Mass Drivers: The worlds of the Northern Fringe were amongst the first to develop these weapons, but they fell quickly out of use when advancements in shield technology rendered them little more than nuisances, even though they were deadly to unshielded targets.
+
+While the rest of the galaxy has moved on from these weapons, their development continued to be funded in the Northern Fringe after a private contractor showed promising evidence that with proper modifications of the technology, mass driver slugs could be equipped to disrupt shields at the instant of impact, allowing a small projectile to pierce the shields of the target and impact the hull directly.
+
+This development was met with some skepticism at first, but once field trials showed fruit, massive funding was allocated by many private contractors and ship captains alike. And in the centuries since that development the mass driver continues to be improved, and it is a brutally effective, if somewhat inconvenient weapon to use due to it's limited ammunition storage capability. Against modern ships which allocate most of their defensive capabilities to their regenerative shields, instead of reinforcing their hull, this weapon has the capability to obliterate some smaller ships in a single shot, and few ships in human space have the toughness to withstand a concentrated barrage from this weapon in extended periods of combat.
